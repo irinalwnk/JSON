@@ -15,11 +15,10 @@
 `vim new.json`  
 Нажать "i" для ввода данных.  
 ```json  
-{ 
-'name':'Leshenko Irina',
-'age';31,
-'cats':1,
-'expected salaty':'800$'
+{"name":"Leshenko Irina",
+"age":31,
+"cats":1,
+"expected salaty":"800$"
 }
 ```
 Нажать "Esc" и ввести для выхода из редактора  
@@ -27,33 +26,33 @@
 11. Отправить изменения на внешний репозиторий.  
 `git commit -am 'add information in to new.json' ; git pish`  
 12. Создать файл preferences.json  
-`touch preferences.json ` 
+`touch preferences.json `  
 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.  
 `vim preferences.json`  
 Нажать "i" для ввода данных.   
 ```json
 {
-'film': 'Lord of the rings',
-'series:'Friends',
-'food': 'Orange',
-'season': 'Spring',
-'country to visit': 'Ireland'
-} 
+"film": "Lord of the rings",
+"series":"Friends",
+"food": "Orange",
+"season": "Spring",
+"country to visit": "Ireland"
+}
 ``` 
 Нажать "Esc" и ввести для выхода из редактора   
 	`:wq`  
-1.  Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
+14.  Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
 `vim skills.json`  
 Нажать "i" для ввода данных.   
 ```json  
 {
-'Skills':
-['QA Testing',
-'Terminal',
-'Postman',
-'Jmeter',
-'SQL',
-'Android Studio']
+"Skills":
+["QA Testing",
+"Terminal",
+"Postman",
+"Jmeter",
+"SQL",
+"Android Studio"]
 }
 ```
 Нажать "Esc" и ввести для выхода из редактора  
@@ -68,27 +67,28 @@
 `Edit this file - внести информацию в файл  в формате JSON:`
 ```json
 {
-'Название': 'Не работает кнопка отправки заказа.',
-
-'steps_to_reproduce':  
-{
-'1.''Открыть сайт *.',
-
-'2.' 'Нажать по ссылке *.',
-
-'3.' 'Пролистать до поля *'.,
-
-'4.' 'Ввести значение в поле *.',
-
-'5.'' Попытаться нажать кнопку отправки заказа.'},
-
-'ar': 'кнопка неактивна.',
-
-'er': 'кнопка нажимается, можно сделать заказ.'
-} 
+  "Description": "Не работает кнопка отправки заказа.",
+  
+  "steps_to_reproduce":  
+  {
+  "1.":"Открыть сайт *.",
+  
+  "2." :"Нажать по ссылке *.",
+  
+  "3." :"Пролистать до поля *",
+  
+  "4." :"Ввести значение в поле *.",
+  
+  "5.":" Попытаться нажать кнопку отправки заказа."},
+  
+  "ar": "кнопка неактивна.",
+  
+  "er": "кнопка нажимается, можно сделать заказ."
+  } 
 
 ```
 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
 `В строку "Commit new file" добавить "add information" - Нажать "Commit new file"`  
 20. Синхронизировать внешний и локальный репозиторий JSON  
-`git pull`
+`git pull`  
+
